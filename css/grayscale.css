@@ -259,12 +259,19 @@ a:focus {
         transform: scale(1);
     }
 }
-
+#about {
+    background: url(../img/aboutme1.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .content-section {
     padding-top: 100px;
 }
 
-.download-section {
+#resume {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -286,11 +293,24 @@ a:focus {
     .download-section {
         padding: 70px 0;
     }
+}
 
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
+#project {
+    background: url(../img/project1.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#contact {
+    background: url(../img/contactme.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .btn {
