@@ -260,7 +260,7 @@ a:focus {
     }
 }
 #about {
-    background: url(../img/aboutme1.jpg) no-repeat bottom center scroll;
+    /*background: url(../img/aboutme1.jpg) no-repeat bottom center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -305,7 +305,7 @@ a:focus {
 }
 
 #contact {
-    background: url(../img/contactme.jpg) no-repeat bottom center scroll;
+    /*background: url(../img/contactme.jpg) no-repeat bottom center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
