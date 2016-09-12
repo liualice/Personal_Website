@@ -260,6 +260,12 @@ a:focus {
     }
 }
 #about {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
     background: url(../img/aboutme1.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -271,7 +277,19 @@ a:focus {
     padding-top: 100px;
 }
 
+@media(min-width:768px) {
+    #about {
+        height: 100%;
+        padding: 0;
+        padding-top: 100px;
+    }
+
+}
+
 #resume {
+    display: table;
+    height: auto;
+    text-align: center;
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -295,7 +313,7 @@ a:focus {
     }
 }
 
-#project {
+#experience {
     background: url(../img/project1.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -304,9 +322,33 @@ a:focus {
     -o-background-size: cover;
 }
 
+.content-section-a {
+    padding: 50px 0;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#project {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 #contact {
-    background: url(../img/contactme.jpg) no-repeat bottom center scroll;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
